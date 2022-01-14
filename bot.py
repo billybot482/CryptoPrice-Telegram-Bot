@@ -11,8 +11,8 @@ import json
 import random
 
 
-TOKEN = config("TOKEN")
-CMC_API_KEY = config("CMC_KEY")
+TOKEN = config("5044716975:AAFVoV7dw3J6FcOs1-oRYtKtBDxGc13neOo")
+CMC_API_KEY = config("0efb210b-18dc-4b25-baaf-e91e3ff42090")
 
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML") # You can set parse_mode by default. HTML or MARKDOWN
 
